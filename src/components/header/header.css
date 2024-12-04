@@ -1,0 +1,55 @@
+header{
+    display: flex;
+    height: 100px;
+    padding: 20px 30px;
+    justify-content: space-between;
+}
+#social{
+    display: flex;
+    width: 200px;
+    height: 30px;
+    align-self: center;
+    margin-right: 30px;
+}
+#social a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+}
+#social a:hover img {
+    opacity: 0.5;
+}
+#social a img{
+    height: 26px;
+}
+#btn-home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#home-fusee{
+    transition: 0.3s;
+    height: 91px;
+    z-index: 3;
+}
+
+#home-typo{
+    position: relative;
+    left: -60px;
+    height: 30px;
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-home:hover #home-fusee{
+    rotate: 30deg;
+    transition: 0.3s;
+}
+#btn-home:hover #home-typo{
+    visibility: visible;
+    transform: translateX(60px);
+    transition: 0.3s;
+    opacity: 1;
+}
+
