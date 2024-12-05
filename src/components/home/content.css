@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Astral-black';
+    src: url(../../assets/fonts/Astral\ Delight\ Black.ttf);
+}
+
+#home-title{
+    color: white;
+    font-family: 'AzoSans-reg';
+    display: flex;
+    width: 50%;
+    align-items: end;
+    gap: 10px;
+}
+#home-title p{
+    width: 150px;
+    font-size: 30px;
+    margin: 0;
+}
+#home-title h1{
+    font-family: 'Astral-black';
+    font-size: 150px;
+    width: 50%;
+    line-height: 110px;
+    margin:0;
+
+}
+#home-txt{
+    color: white;
+    font-family: 'AzoSans-reg';
+    font-size: 30px;
+    max-width: 500px;
+}

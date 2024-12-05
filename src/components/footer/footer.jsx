@@ -1,10 +1,11 @@
 import logoTypo from '../../assets/svg/logo_typo.svg'
-import logoCiel from '../../assets/svg/logo-ciel-espace.svg'
 import { Link } from 'react-router-dom'
 import '../footer/footer.css'
 import faceBook from '../../assets/svg/facebook.svg'
 import logoX from '../../assets/svg/x.svg'
 import instagram from '../../assets/svg/instagram.svg'
+import CielEspace from '../ciel-espace/ciel-espace'
+
 
 const column1 = [
     {title: "ESA", path: ""},
@@ -29,9 +30,8 @@ function Footer(){
                         informer sur les dernières actualités de
                         la course à l'espace.
                     </p>
-                    <div id='cielEspace'>
-                        <p>Site satellite de</p>
-                        <a href=""><img src={logoCiel} alt="ciel & espace" id='logo-ciel-espace' /></a>
+                    <div id='footer-ciel-&-espace'>
+                        <CielEspace/>
                     </div>
 
                 </div>

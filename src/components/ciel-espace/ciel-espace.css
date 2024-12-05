@@ -1,0 +1,18 @@
+#cielEspace{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: white;
+}
+#cielEspace a img{
+    width: 115px;
+    height: 68px;
+    scale: 1;
+    margin: 0;
+
+}
+#cielEspace p{
+    font-size: 25px;
+    font-family: 'AzoSans-thin';
+    font-style: italic;
+}
