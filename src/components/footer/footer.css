@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'AzoSans-reg';
+    src: url(../../assets/fonts/AzoSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'AzoSans-thin';
+    src: url(../../assets/fonts/AzoSans-Thin.ttf);
+}
+@font-face {
+    font-family: 'AzoSans-bold';
+    src: url(../../assets/fonts/AzoSans-Bold.ttf);
+}
+
+
+
 footer{
     position: absolute;
     background: #000023;
@@ -5,11 +20,15 @@ footer{
     width: 100%;
     display: flex;
     flex-direction: column;
+    font-family: 'AzoSans-reg';
+    gap: 20px;
+    padding: 70px 0;
 }
 #footer{
     display: flex;
     justify-content: space-around;
     gap: 16px;
+    
 }
 #auteur{
     color: white;
@@ -21,16 +40,22 @@ footer p{
     
 }
 #footer-txt{
-    width: 350px;
+    width: 600px;
+    font-size: 30px;
 }
 #footer-p1{
     color: white;
-
+    display:flex; 
+    flex-direction: column;
+    gap: 12px;
+    align-items: start;
+    justify-content: center;
 }
 
 
 #footer-p1 img{
-    scale: 0.5;
+    width: 300px;
+    margin-bottom: 30px;
 
 }
 #cielEspace{
@@ -49,19 +74,39 @@ footer p{
     display: flex;
     flex-direction: column;
     gap: 12px;
+    padding: 20px;
     
+}
+#footer-p2 p{
+    font-size: 40px;
+    font-family: 'AzoSans-bold';
 }
 #footer-list{
     display: flex;
-    flex-wrap: wrap;
-    width: 150px;
-    gap: 16px;
+    gap: 28px;
     justify-content:start;
+    padding: 5px;
 }
+#list-part1{
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 30px;
+}
+#list-part2{
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 30px;
+}
+
 #footer-list a{
     text-decoration: none;
     color: white;
     
+}
+#footer-list a:hover{
+    font-family: 'AzoSans-bold';
 }
 #footer-social{
     width: 66px;
@@ -75,7 +120,19 @@ footer p{
     display: flex;
     align-items: center;
 }
+#footer-social a:hover{
+    opacity: 0.5;
+}
 #footer-social a img{
-    height: 26px;
+    height: 46px;
 
 }
+#logo-ciel-espace:hover{
+    filter: drop-shadow(0px 0px 10px #C61ED8);
+}
+#cielEspace p{
+    font-size: 25px;
+    font-family: 'AzoSans-thin';
+    font-style: italic;
+}
+
