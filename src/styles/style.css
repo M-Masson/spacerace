@@ -1,9 +1,9 @@
 body {
     background : linear-gradient(to top, #3700CE, #000023 60%);
-    height: 160vh;
+    height: 200vh;
     margin: 0;
     
 }
 main{
-    padding: 30px;
+    padding: 0 80px;
 }

@@ -29,7 +29,7 @@ function Acteurs(){
     const [hoveredActor, setHoveredActor] = useState(null);
     return(
         <section id="acteurs">
-            <h2>Acteurs</h2>
+            <h2>ACTEURS</h2>
             <div id='all-block'>
                 {actors.map((item, index)=>(
                     <Link 
