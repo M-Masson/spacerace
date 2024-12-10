@@ -1,0 +1,119 @@
+#acteurs h2{
+    color: white;
+}
+
+#all-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.acteur-block{
+    background-repeat: no-repeat;
+    position: relative;
+    width: 385px;
+    height: 385px;
+    text-decoration: none;
+    color: black;
+}
+.acteur-block img{
+    rotate: 20deg;
+    transition: 0.3s;
+    position: absolute;
+    
+  
+}
+.acteur-block p{
+    margin-bottom: 20px;
+    transition: 0.3s;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+}
+.acteur-block:hover img{
+    rotate: 0deg;
+    transition: 0.3s;
+    scale: 1.2;
+}
+.acteur-block:hover #block-img-0{
+    rotate: -28deg;
+    transform: translateY(30px);
+    transition: 0.3s;
+    
+}
+.acteur-block:hover #block-img-4{
+    rotate: -25deg;
+    transition: 0.3s;
+    transform: translateY(10px);  
+}
+.acteur-block:hover #block-img-6{
+    rotate: -30deg;
+    transition: 0.3s;
+    transform:translateY(40px) translateX(-10px);  
+}
+.acteur-block:hover #block-img-7{
+    rotate: -25deg;
+    transition: 0.3s;
+    transform:translateY(30px) translateX(-10px);  
+}
+.acteur-block:hover p{
+   transform:translateX(100px) translateY(-10px);
+    transition: 0.3s;
+    text-align: end;
+    width: 92px;
+}
+.acteur-block:nth-child(8):hover p{
+    text-align: start;
+    text-wrap: nowrap;
+}
+#block-img-0{
+    width: 214px;
+    height: 292px;
+    rotate: 0deg;
+    top: 15px;
+    left : 20%;
+}
+#block-img-1{
+    width: calc(166px * 1.2);
+    height: calc(197px * 1.2);
+    top: 50px;
+    left : 30%;
+}
+#block-img-2{
+    width: calc(102px * 1.4);
+    height: calc(131px * 1.4);
+    top: 60px;
+    left : 30%; 
+}
+#block-img-3{
+    width: calc(156px *1.2);
+    height: calc(163px * 1.2);
+    top: 70px;
+    left: 25%;
+}
+#block-img-4{
+    width: calc(359px *0.5);
+    height: calc(531px * 0.5);
+    top: 30px;
+    left: 30%;
+    rotate:0deg;
+}
+#block-img-5{
+    width: calc(1391px / 8);
+    height: calc(1377px / 8);
+    left: 110px;
+    top: 80px;
+}
+#block-img-6{
+    width: calc(444px*0.4);
+    height: calc(650px*0.4);
+    rotate: 0deg;
+    left: 100px;
+}
+#block-img-7{
+    width: calc(488px*0.4);
+    height: calc(616px*0.4);
+    rotate: 0deg;
+    left: 100px;
+    top: 30px;
+}

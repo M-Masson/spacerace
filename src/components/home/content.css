@@ -15,6 +15,7 @@
     width: 150px;
     font-size: 30px;
     margin: 0;
+    margin-left: -50px;
 }
 #home-title h1{
     font-family: 'Astral-black';
